@@ -18,6 +18,9 @@ Genomes are complex 3D structures that are partitioned into chromatin compartmen
 - Optional: FastQC, https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 - Optional: HiCExplorer, https://hicexplorer.readthedocs.io/en/latest/
 
+=======
+
+# Analysis of PTF1A datasets include the following steps:
 
 ### TrimGalore
 `mkdir QualityControl`
