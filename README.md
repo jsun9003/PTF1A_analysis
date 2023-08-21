@@ -19,8 +19,6 @@ Genomes are complex 3D structures that are partitioned into chromatin compartmen
 - Optional: HiCExplorer, https://hicexplorer.readthedocs.io/en/latest/
 
 
-
-
 ### TrimGalore
 `mkdir QualityControl`
 
