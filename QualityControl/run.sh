@@ -1,0 +1,1 @@
+trim_galore.py -i ../RawData/*.fq.gz -o . 1> RNA.txt 2> RNA.log
