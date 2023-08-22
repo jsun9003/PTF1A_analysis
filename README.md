@@ -6,8 +6,6 @@ Genomes are complex 3D structures that are partitioned into chromatin compartmen
 
 ![figs/overview.jpg](https://github.com/jsun9003/PTF1A_analysis/blob/main/figs/overview.png)
 
-# Preprocessing of RNA-seq
-
 #### Please have the following softwares installed first:
 - bowtie2, http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 - samtools, http://www.htslib.org/
@@ -19,22 +17,6 @@ Genomes are complex 3D structures that are partitioned into chromatin compartmen
 - Optional: HiCExplorer, https://hicexplorer.readthedocs.io/en/latest/
 
 =======
-
-# Analysis of PTF1A datasets include the following steps:
-
-### TrimGalore
-`mkdir QualityControl`
-
-`cd QualityControl`
-
-`trim_galore.py -i ../rawdata/*.gz 1>Hi-C.txt 2>Hi-C.log -o Clean &`
-
-### Prepare for HiC-Pro
-`cd ../`
-
-`mkdir data`
-
-`cd data`
 
 # Cite
 
