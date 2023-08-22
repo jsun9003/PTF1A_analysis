@@ -6,6 +6,7 @@ Genomes are complex 3D structures that are partitioned into chromatin compartmen
 
 ![figs/overview.jpg](https://github.com/jsun9003/PTF1A_analysis/blob/main/figs/overview.png)
 
+
 # Please have the following softwares installed first:
 - bowtie2, http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 - samtools, http://www.htslib.org/
