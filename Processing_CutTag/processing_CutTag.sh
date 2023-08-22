@@ -62,4 +62,4 @@ bamcoverage.pl -i ../05_SplitBams/ -o ./ 1> bamcoverage_ChIPseq.txt 2> bamcovera
 mkdir 07_PeakCalling
 cd 07_PeakCalling
 mkdir logs
-macs2 callpeak -t ../05_SplitBams/Condition.uniq.bam  -c ../05_SplitBams/input.uniq.bam -f BAM  --outdir ./ -n  P784-stat3-cam --verbose 0  -g mm -q 0.05 -m 5 50 1>./logs/Condition.stdout.log  2>./logs/Condition.stderr.log &
+macs2 callpeak -t ../05_SplitBams/Condition.uniq.bam  -c ../05_SplitBams/input.uniq.bam -f BAM  --outdir ./ -n  Condition --verbose 0  -g mm -q 0.05 -m 5 50 1>./logs/Condition.stdout.log  2>./logs/Condition.stderr.log &
